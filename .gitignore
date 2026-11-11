@@ -4,3 +4,15 @@ build/
 .DS_Store
 *.log
 .env
+
+# 数据与中间产物（本地保存）
+data/
+outputs/
+*.parquet
+*.dta
+*.pkl
+*.joblib
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
